@@ -12,5 +12,6 @@ data class Article (
     val subsection: String,
     val abstract: String,
     val published_date: String,
-    val favorite: Boolean
+    val favorite: Boolean,
+    val multimedia: List<Multimedia>
 )
